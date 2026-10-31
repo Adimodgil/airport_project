@@ -1,0 +1,200 @@
+[
+  {
+    "id": "AF101",
+    "airline": "Air India",
+    "type": "arrival",
+    "scheduled_time": "06:00",
+    "duration": 35,
+    "priority": "normal",
+    "passengers": 80,
+    "gate": "G1",
+    "delay": 0
+  },
+  {
+    "id": "AF102",
+    "airline": "IndiGo",
+    "type": "departure",
+    "scheduled_time": "06:47",
+    "duration": 45,
+    "priority": "normal",
+    "passengers": 97,
+    "gate": "G2",
+    "delay": 0
+  },
+  {
+    "id": "AF103",
+    "airline": "Vistara",
+    "type": "arrival",
+    "scheduled_time": "07:34",
+    "duration": 55,
+    "priority": "normal",
+    "passengers": 114,
+    "gate": "G3",
+    "delay": 0
+  },
+  {
+    "id": "AF104",
+    "airline": "SpiceJet",
+    "type": "departure",
+    "scheduled_time": "08:21",
+    "duration": 65,
+    "priority": "emergency",
+    "passengers": 131,
+    "gate": "G4",
+    "delay": 0
+  },
+  {
+    "id": "AF105",
+    "airline": "Akasa Air",
+    "type": "arrival",
+    "scheduled_time": "09:08",
+    "duration": 35,
+    "priority": "normal",
+    "passengers": 148,
+    "gate": "G5",
+    "delay": 0
+  },
+  {
+    "id": "AF106",
+    "airline": "Air India",
+    "type": "departure",
+    "scheduled_time": "09:55",
+    "duration": 45,
+    "priority": "normal",
+    "passengers": 165,
+    "gate": "G6",
+    "delay": 0
+  },
+  {
+    "id": "AF107",
+    "airline": "IndiGo",
+    "type": "arrival",
+    "scheduled_time": "10:42",
+    "duration": 55,
+    "priority": "VIP",
+    "passengers": 182,
+    "gate": "G1",
+    "delay": 0
+  },
+  {
+    "id": "AF108",
+    "airline": "Vistara",
+    "type": "departure",
+    "scheduled_time": "11:29",
+    "duration": 65,
+    "priority": "normal",
+    "passengers": 199,
+    "gate": "G2",
+    "delay": 0
+  },
+  {
+    "id": "AF109",
+    "airline": "SpiceJet",
+    "type": "arrival",
+    "scheduled_time": "12:16",
+    "duration": 35,
+    "priority": "normal",
+    "passengers": 216,
+    "gate": "G3",
+    "delay": 0
+  },
+  {
+    "id": "AF110",
+    "airline": "Akasa Air",
+    "type": "departure",
+    "scheduled_time": "13:03",
+    "duration": 45,
+    "priority": "normal",
+    "passengers": 233,
+    "gate": "G4",
+    "delay": 0
+  },
+  {
+    "id": "AF111",
+    "airline": "Air India",
+    "type": "arrival",
+    "scheduled_time": "13:50",
+    "duration": 55,
+    "priority": "normal",
+    "passengers": 250,
+    "gate": "G5",
+    "delay": 0
+  },
+  {
+    "id": "AF112",
+    "airline": "IndiGo",
+    "type": "departure",
+    "scheduled_time": "14:37",
+    "duration": 65,
+    "priority": "normal",
+    "passengers": 267,
+    "gate": "G6",
+    "delay": 0
+  },
+  {
+    "id": "AF113",
+    "airline": "Vistara",
+    "type": "arrival",
+    "scheduled_time": "15:24",
+    "duration": 35,
+    "priority": "emergency",
+    "passengers": 284,
+    "gate": "G1",
+    "delay": 0
+  },
+  {
+    "id": "AF114",
+    "airline": "SpiceJet",
+    "type": "departure",
+    "scheduled_time": "16:11",
+    "duration": 45,
+    "priority": "normal",
+    "passengers": 301,
+    "gate": "G2",
+    "delay": 0
+  },
+  {
+    "id": "AF115",
+    "airline": "Akasa Air",
+    "type": "arrival",
+    "scheduled_time": "16:58",
+    "duration": 55,
+    "priority": "normal",
+    "passengers": 318,
+    "gate": "G3",
+    "delay": 0
+  },
+  {
+    "id": "AF116",
+    "airline": "Air India",
+    "type": "departure",
+    "scheduled_time": "17:45",
+    "duration": 65,
+    "priority": "VIP",
+    "passengers": 95,
+    "gate": "G4",
+    "delay": 0
+  },
+  {
+    "id": "AF117",
+    "airline": "IndiGo",
+    "type": "arrival",
+    "scheduled_time": "18:32",
+    "duration": 35,
+    "priority": "normal",
+    "passengers": 112,
+    "gate": "G5",
+    "delay": 0
+  },
+  {
+    "id": "AF118",
+    "airline": "Vistara",
+    "type": "departure",
+    "scheduled_time": "19:19",
+    "duration": 45,
+    "priority": "normal",
+    "passengers": 129,
+    "gate": "G6",
+    "delay": 0
+  }
+]

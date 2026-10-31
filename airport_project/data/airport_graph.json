@@ -1,0 +1,224 @@
+{
+  "nodes": [
+    {
+      "id": "RW1",
+      "label": "Runway 1",
+      "x": 70,
+      "y": 80,
+      "kind": "runway"
+    },
+    {
+      "id": "RW2",
+      "label": "Runway 2",
+      "x": 70,
+      "y": 260,
+      "kind": "runway"
+    },
+    {
+      "id": "J1",
+      "label": "Taxi Junction A",
+      "x": 230,
+      "y": 170,
+      "kind": "junction"
+    },
+    {
+      "id": "J2",
+      "label": "Taxi Junction B",
+      "x": 390,
+      "y": 170,
+      "kind": "junction"
+    },
+    {
+      "id": "G1",
+      "label": "Gate 1",
+      "x": 540,
+      "y": 50,
+      "kind": "gate"
+    },
+    {
+      "id": "G2",
+      "label": "Gate 2",
+      "x": 540,
+      "y": 115,
+      "kind": "gate"
+    },
+    {
+      "id": "G3",
+      "label": "Gate 3",
+      "x": 540,
+      "y": 180,
+      "kind": "gate"
+    },
+    {
+      "id": "G4",
+      "label": "Gate 4",
+      "x": 540,
+      "y": 245,
+      "kind": "gate"
+    },
+    {
+      "id": "G5",
+      "label": "Gate 5",
+      "x": 540,
+      "y": 310,
+      "kind": "gate"
+    },
+    {
+      "id": "G6",
+      "label": "Gate 6",
+      "x": 540,
+      "y": 375,
+      "kind": "gate"
+    },
+    {
+      "id": "FUEL",
+      "label": "Fuel Depot",
+      "x": 350,
+      "y": 340,
+      "kind": "service"
+    },
+    {
+      "id": "BAG",
+      "label": "Baggage Hub",
+      "x": 400,
+      "y": 70,
+      "kind": "service"
+    },
+    {
+      "id": "TERM",
+      "label": "Terminal",
+      "x": 680,
+      "y": 200,
+      "kind": "terminal"
+    },
+    {
+      "id": "CARGO",
+      "label": "Cargo Hub",
+      "x": 350,
+      "y": 420,
+      "kind": "service"
+    }
+  ],
+  "edges": [
+    [
+      "RW1",
+      "J1",
+      4
+    ],
+    [
+      "RW2",
+      "J1",
+      5
+    ],
+    [
+      "J1",
+      "J2",
+      3
+    ],
+    [
+      "J2",
+      "G1",
+      4
+    ],
+    [
+      "J2",
+      "G2",
+      3
+    ],
+    [
+      "J2",
+      "G3",
+      2
+    ],
+    [
+      "J2",
+      "G4",
+      3
+    ],
+    [
+      "J2",
+      "G5",
+      4
+    ],
+    [
+      "J2",
+      "G6",
+      5
+    ],
+    [
+      "J2",
+      "BAG",
+      2
+    ],
+    [
+      "BAG",
+      "TERM",
+      5
+    ],
+    [
+      "J1",
+      "FUEL",
+      6
+    ],
+    [
+      "FUEL",
+      "G5",
+      3
+    ],
+    [
+      "FUEL",
+      "G6",
+      4
+    ],
+    [
+      "FUEL",
+      "CARGO",
+      2
+    ],
+    [
+      "CARGO",
+      "G4",
+      4
+    ],
+    [
+      "G1",
+      "TERM",
+      3
+    ],
+    [
+      "G2",
+      "TERM",
+      3
+    ],
+    [
+      "G3",
+      "TERM",
+      2
+    ],
+    [
+      "G4",
+      "TERM",
+      3
+    ],
+    [
+      "G5",
+      "TERM",
+      4
+    ],
+    [
+      "G6",
+      "TERM",
+      5
+    ],
+    [
+      "BAG",
+      "G1",
+      3
+    ],
+    [
+      "J1",
+      "BAG",
+      5
+    ]
+  ]
+}
